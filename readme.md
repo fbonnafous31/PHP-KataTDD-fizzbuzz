@@ -44,3 +44,7 @@ vendor/bin/phpunit tests/Entity/ProductTest.php --filter=testcomputeTVAFoodProdu
 
 xdebug
 vendor/bin/phpunit --coverage-html web/test-coverage/
+
+Lancer l'application
+> supprimer le répertoire /web
+> symfony server:start
